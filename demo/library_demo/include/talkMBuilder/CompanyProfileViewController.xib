@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CompanyProfileViewController">
+            <connections>
+                <outlet property="btnEmail" destination="vfM-aL-uii" id="ShV-oC-QMk"/>
+                <outlet property="btnFacebook" destination="nF6-8u-Hbe" id="95J-rh-mIi"/>
+                <outlet property="btnInstagram" destination="uuk-Mp-isU" id="Thy-ET-ger"/>
+                <outlet property="btnPhone" destination="P3Q-6X-e7h" id="AT8-3i-UcX"/>
+                <outlet property="btnTwitter" destination="gjn-yb-WLV" id="VmC-Ge-eky"/>
+                <outlet property="btnWeb" destination="TRr-Mn-8Ve" id="hIN-hC-eg9"/>
+                <outlet property="buttonContainer" destination="YUr-xA-vsK" id="kfe-aD-A6b"/>
+                <outlet property="imgProfile" destination="laA-GU-Xso" id="O1e-7A-11h"/>
+                <outlet property="lblCompanyDescription" destination="fTd-2w-Ten" id="Acy-l2-qs1"/>
+                <outlet property="lblName" destination="ksn-6M-bo4" id="94f-S5-9oW"/>
+                <outlet property="lblProfile" destination="QuN-iP-8Al" id="GiA-ma-cEd"/>
+                <outlet property="lblSignature" destination="CFO-WT-X9z" id="sKL-PM-uB6"/>
+                <outlet property="svButton" destination="Ijo-19-9yH" id="Xxp-Tn-7cg"/>
+                <outlet property="vProfile" destination="0rt-cd-eiX" id="C8W-5O-s84"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view0" destination="i5M-Pr-FkT" id="a5r-8r-qS7"/>
+                <outlet property="view1" destination="Hu3-FP-Jzf" id="h4g-0C-sh6"/>
+                <outlet property="viewBack" destination="Hwg-uO-bxb" id="6e1-JD-WhD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hu3-FP-Jzf">
+                    <rect key="frame" x="16" y="60" width="288" height="451"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CS or Company Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksn-6M-bo4">
+                            <rect key="frame" x="9" y="115" width="269" height="25"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" red="0.13725490196078433" green="0.14901960784313725" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Signature" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFO-WT-X9z">
+                            <rect key="frame" x="9" y="142" width="269" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.48627450980392156" green="0.52156862745098043" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="company description" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTd-2w-Ten">
+                            <rect key="frame" x="9" y="180" width="270" height="165"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="textColor" red="0.3411764705882353" green="0.36862745098039218" blue="0.38431372549019605" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2T-gE-eus">
+                            <rect key="frame" x="141" y="203" width="4.5" height="20.5"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YUr-xA-vsK">
+                            <rect key="frame" x="7.5" y="386.5" width="270" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ijo-19-9yH">
+                            <rect key="frame" x="9" y="360" width="240" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nF6-8u-Hbe">
+                                    <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="JKC-ot-cyt"/>
+                                        <constraint firstAttribute="height" constant="40" id="fin-sF-Ukk"/>
+                                    </constraints>
+                                    <state key="normal" title="Button" image="ic_facebook"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRr-Mn-8Ve">
+                                    <rect key="frame" x="40" y="0.0" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="AEc-5t-h5W"/>
+                                    </constraints>
+                                    <state key="normal" title="Button" image="ic_web"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuk-Mp-isU">
+                                    <rect key="frame" x="80" y="0.0" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="R1P-U7-wcK"/>
+                                    </constraints>
+                                    <state key="normal" title="Button" image="ic_instagram"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjn-yb-WLV">
+                                    <rect key="frame" x="120" y="0.0" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="FNU-LE-gYI"/>
+                                        <constraint firstAttribute="width" constant="40" id="bqo-hM-Z7H"/>
+                                    </constraints>
+                                    <state key="normal" title="Button" image="ic_twitter"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfM-aL-uii">
+                                    <rect key="frame" x="160" y="0.0" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="0Qt-m6-pPN"/>
+                                        <constraint firstAttribute="width" constant="40" id="RQH-sm-xbT"/>
+                                    </constraints>
+                                    <state key="normal" title="Button" image="ic_email"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3Q-6X-e7h">
+                                    <rect key="frame" x="200" y="0.0" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="KbW-34-KcP"/>
+                                        <constraint firstAttribute="width" constant="40" id="vo9-5a-2dI"/>
+                                    </constraints>
+                                    <state key="normal" title="Button" image="ic_phone"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0rt-cd-eiX">
+                            <rect key="frame" x="7.5" y="39" width="270" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="400" fixedFrame="YES" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="100" translatesAutoresizingMaskIntoConstraints="NO" id="laA-GU-Xso">
+                                    <rect key="frame" x="94.604696509517794" y="-19.999999999999432" width="80" height="80"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.60329765369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QuN-iP-8Al">
+                    <rect key="frame" x="16" y="21.5" width="288" height="21"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hwg-uO-bxb">
+                    <rect key="frame" x="17" y="505" width="288" height="60"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnL-XQ-xqL">
+                            <rect key="frame" x="0.0" y="19" width="288" height="22"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" image="ic_close"/>
+                            <connections>
+                                <action selector="abtnBack:" destination="-1" eventType="touchUpInside" id="flW-m1-Up9"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="512" y="59"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_close" width="12" height="14"/>
+        <image name="ic_email" width="75" height="75"/>
+        <image name="ic_facebook" width="75" height="75"/>
+        <image name="ic_instagram" width="75" height="75"/>
+        <image name="ic_phone" width="75" height="75"/>
+        <image name="ic_twitter" width="75" height="75"/>
+        <image name="ic_web" width="75" height="75"/>
+    </resources>
+</document>
